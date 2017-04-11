@@ -1,0 +1,25 @@
+- TROCAR IMAGENS por FREEHELP
+    - HOTSITE
+    - HOTSITE MOBILE
+    - APP
+    
+- APP
+    - IOS
+        Na instalação, não solicitou o GPS
+        Quando tenta entrar em contato via whastapp com o fornecedor, aparece um erro informando que o whatsapp não está instalado.
+        Nova versão compilada para iOS 8 apresenta bug na tela de listagem de fornecedores
+        Banners estão abrindo um link internamente, verificar o link para apontar para um serviço ou abrir link externamente
+    
+    - AMBOS
+        LOGIN REDES SOCIAIS
+        MANTER LOGADO
+        Troca de senha
+        
+- MUDAR A DISTANCIA QUE ESTA FIXA EM 100KM para o que o app dizer
+    
+
+ _______________________   ___    ________  _____  ____ 
+/_  __/ __/ __/_  __/ _ | / _ \  /_  __/ / / / _ \/ __ \
+ / / / _/_\ \  / / / __ |/ , _/   / / / /_/ / // / /_/ /
+/_/ /___/___/ /_/ /_/ |_/_/|_|   /_/  \____/____/\____/ 
+

@@ -1,0 +1,36 @@
+<div class="title" style="width:150px">LOGIN</div>
+<div style="position:relative; top:60px">
+<form id="formlogin" onkeypress="if (event.keyCode == 13) { login(); return false; }">
+    
+    <div style="position:absolute; left:5px; top:-20px">
+        <input style="width:250px" type="text" name="mail" placeholder="E-mail (*)">
+    </div>
+    
+    <div style="position:absolute; left:275px; top:-15px; width:2px; height:50px; background-color:#4cd0f6">
+    </div>
+        
+    <div style="position:absolute; left:290px; top:-20px">
+        <input style="width:250px" type="password" name="pass" placeholder="Senha (*)">
+    </div>
+    
+</form>
+    
+    
+<div class="linkButton" style="width:540px; position:absolute; top:60px">
+    <center>
+        <a href="javascript:openPopup('recuperarsenha');">Esqueci minha senha</a>
+    </center>
+</div>
+
+<div class="error" id="loginerror" style="position:absolute; top:90px; width:540px"></div>
+
+
+<div style='position:absolute;top:50px;left:370px;'>
+<div class='rightButtonmini' style="width:200px"><b>
+<a href="javascript:login();">
+LOGIN
+</a></b></div></div>
+    
+    
+<br>
+</div>

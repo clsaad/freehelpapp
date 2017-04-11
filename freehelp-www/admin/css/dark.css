@@ -1,0 +1,108 @@
+html, body
+{
+    font-family: "Ubuntu", Arial, sans-serif;
+    font-size: 10pt;
+    border:0px;
+    padding: 0px;
+    background-color: #DDDDDD;
+}
+
+
+a
+{
+    color: black;
+}
+
+a:hover
+{
+    color: #BBBB00;
+}
+
+input 
+{
+    padding: 5px;
+}
+
+.title
+{
+    position:relative;
+    left:0px;
+    width: calc(100% - 40px);
+    color:white;
+    padding: 20px;
+    background-color: 333333;
+}
+
+.title a
+{
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+.title a:hover
+{
+    color: #DDDD00;
+    text-decoration: none;
+}
+
+
+#topfeedback
+{
+    position:fixed;
+    top:-50px;
+    width:300px;
+    height:20px;
+    left: 210px;
+    padding:5px;
+    padding-left: 25px;
+    text-align: left;
+    font-weight: bold;
+    display: block;
+    
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+#maincontent
+{
+    position:absolute;
+    top:0px;
+    left: 200px;
+    width:calc(100% - 240px);
+    padding: 20px;
+}
+
+#sidemenu
+{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:160px;
+    height: 100%;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px;
+    line-height: 150%;
+    overflow-y: scroll;
+}
+
+#sidemenu a
+{
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+#sidemenu a:hover
+{
+    color: #DDDD00;
+    text-decoration: none;
+}
+
+#root
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    padding: 0px;
+}

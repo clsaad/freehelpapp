@@ -1,0 +1,99 @@
+<div class='whitebox'>
+    <center>
+        <div class='space'></div>
+        <div style='position:relative;left:-230px;width:465px;height:250px;'>
+            <img class='toggleimg' alt='OnClick.CadastroImage()' style='position:absolute;' src='hotsite/mobile/images/foto_0.png'>
+            <img id='imgcadastroservico' src='' style='pointer-events: none;border-radius:200px;position:absolute;width:250px;height:250px;left:231px'>
+        </div>
+        <div class='space'></div>
+        
+        <form id='formcadastroservico'>
+            <input type="file" name="image" id="cadastroservicoimage" accept="image/jpeg" style="display:none" onchange="ImgHandler.handleFiles(this.files)" form="formcadastroservico">
+            <img src='hotsite/mobile/images/rotacione_o_aparelho.png' width='70%'><br>
+            
+            <input type="text" name="name" placeholder="Nome ou Empresa (*)"><br>
+            <input type="text" onBlur="Callbacks.fillByCep();" name="end_cep" placeholder="Cep (*)"><br>
+            <input type="text" name="end_endereco" placeholder="Endereço (*)"><br>
+            <input type="text" name="end_numero" placeholder="Número (*)"><br>
+            <input type="text" name="end_bairro" placeholder="Bairro (*)"><br>
+            <input type="text" name="end_complemento" placeholder="Complemento"><br>
+            <input type="text" name="celular" placeholder="Celular"><br>
+            <input type="text" name="telefone" placeholder="Telefone Fixo"><br>
+            <input type="text" name="site" placeholder="Página na Internet"><br>
+            <input type="text" name="mail" placeholder="E-mail de Contato"><br>
+            
+            <!-- Categoria 1 -->
+            <div>
+                <div class='blueseparator'></div>
+                <select class='styled-select' onchange="ServiceController.onServiceChangeCategory(1)" name="category1" id="formcadastrocategoria1">
+                    <option value="" selected="selected"> -- Categoria --</option>
+                </select>
+                <br>
+                <select class='styled-select' onchange="ServiceController.onServiceChangeSubCategory(1)" name="subcategory1" id="formcadastrosubcategoria1">
+                    <option value="" selected="selected"> -- Sub-Categoria --</option>
+                </select>
+                <br>
+                <select class='styled-select' onchange="" name="occupation1" id="formcadastrooccupation1">
+                    <option value="" selected="selected"> -- Ocupação --</option>
+                </select>
+                <br>
+            </div>
+            
+            <!-- Categoria 2 -->
+            <div class='blueseparator'></div>
+            <img class='toggleimg' id='btnaddcategory2' alt='ServiceController.addCategory(2)' style='position:relative; left:0px;' src='hotsite/mobile/images/btn_addcategory_0.png'>
+            
+            <div id='divcategory2' style='display:none'>
+                <select class='styled-select' onchange="ServiceController.onServiceChangeCategory(2)" name="category2" id="formcadastrocategoria2">
+                    <option value="" selected="selected"> -- Categoria --</option>
+                </select>
+                <br>
+                <select class='styled-select' onchange="ServiceController.onServiceChangeSubCategory(2)" name="subcategory2" id="formcadastrosubcategoria2">
+                    <option value="" selected="selected"> -- Sub-Categoria --</option>
+                </select>
+                <br>
+                <select class='styled-select' onchange="" name="occupation2" id="formcadastrooccupation2">
+                    <option value="" selected="selected"> -- Ocupação --</option>
+                </select>
+                <br>
+            </div>
+            
+            <!-- Categoria 3 -->
+            <div class='blueseparator'></div>
+            <img class='toggleimg' id='btnaddcategory3' alt='ServiceController.addCategory(3)' style='position:relative; left:0px;' src='hotsite/mobile/images/btn_addcategory_0.png'>
+    
+            <div id='divcategory3' style='display:none'>
+                <select class='styled-select' onchange="ServiceController.onServiceChangeCategory(3)" name="category3" id="formcadastrocategoria3">
+                    <option value="" selected="selected"> -- Categoria --</option>
+                </select>
+                <br>
+                <select class='styled-select' onchange="ServiceController.onServiceChangeSubCategory(3)" name="subcategory3" id="formcadastrosubcategoria3">
+                    <option value="" selected="selected"> -- Sub-Categoria --</option>
+                </select>
+                <br>
+                <select class='styled-select' onchange="" name="occupation3" id="formcadastrooccupation3">
+                    <option value="" selected="selected"> -- Ocupação --</option>
+                </select>
+                <br>
+            </div>
+                
+            
+            
+            <div class='blueseparator'></div>
+            <textarea style="height: 400px; resize:none;" name="description" placeholder="Descrição (*)" maxlength="512"></textarea><br>
+        </form>
+        
+    </center>
+    
+    <div class='space'></div>
+    <div class='space'></div>
+    
+    <div style='position:relative'>
+        <img class='toggleimg' id='lixeiraservico' alt='OnClick.ExcluirServico()' style='position:absolute; left:50px;' src='hotsite/mobile/images/btn_excluirservico_0.png'>
+        <img id='btn_efetuarcadastro' class='toggleimg' alt='OnClick.CadastrarService()' style='position:absolute; left:580px;' src='hotsite/mobile/images/btn_efetuarcadastro_0.png'>
+        <img id='btn_salvarcadastro' class='toggleimg' alt='OnClick.CadastrarService()' style='position:absolute; left:580px;' src='hotsite/mobile/images/btn_salvarcadastro_0.png'>
+        </div>
+    </div>
+    
+    <div class='space' style='height:200px'></div>
+</div>

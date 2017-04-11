@@ -1,0 +1,1 @@
+var SITE_ROOT = "http://www.freehelp.com.br/";

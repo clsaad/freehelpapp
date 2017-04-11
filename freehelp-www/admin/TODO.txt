@@ -1,0 +1,23 @@
++ Login de Administradores (Recuperar a senha do administrador)
++ Visualização/Ordenação de Categorias
++ Visualização/Ordenação Cadatastro/Edição/Exclusão de Sub-Categorias
++ Visualização/Ordenação Cadatastro/Edição/Exclusão de Ocupações
++ Visualização Cadastro/Edição de Banners por categoria
++ Visualização/Ordenação Cadatastro/Edição/Exclusão de Fornecedores
++ Visualização/Ordenação Cadatastro/Edição/Exclusão de Serviços
++ Visualização/Ordenação Cadatastro/Edição/Exclusão de Usuários do App
+
+-  Relatório de cadastro por periodo
+- Relatório acesso ao app por periodo
+
+Relatório acesso a categorias/subcategorias/serviço por periodo
+Relatório de fornecedores por categoria (Quantidade por categoria, local, etc.)
+
++ Moderação dos Comentários/Qualificação dos fornecedores
+
+
+Possibilidade de mudar o fornecedor
+
+
+
+

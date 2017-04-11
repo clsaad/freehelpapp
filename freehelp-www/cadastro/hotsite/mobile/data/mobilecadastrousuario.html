@@ -1,0 +1,44 @@
+<div class='whitebox'>
+    <center>
+        <form id='formcadastro'>
+            <input type="text" name="mail" placeholder="E-mail (*)"><br>
+            <input type="text" name="cpf" placeholder="CPF (*)"><br>
+            <input type="text" name="nascimento" placeholder="Data de Nascimento (*)"><br>
+            <input type="password" name="password" placeholder="Senha (*)"><br>
+            <input type="password" name="js_password2" placeholder="Confirme a Senha (*)"><br>
+            
+            <select class='styled-select' onchange="Callbacks.onChangeComoSoube()" name="js_how">
+                <option value="" disabled="disabled" selected="selected">Como soube do FreeHelp?*</option>
+                <option value="Indicação de amigo">Indicação de amigo</option>
+                <option value="Busca no Google">Busca no Google</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Loja de aplicativos">Loja de aplicativos</option>
+                <option value="">- Outros</option>
+            </select>
+
+            <input id="comosoubeoutro" style="display:none" type="text" name="js_other" placeholder="Outros" onKeyUp="return  Callbacks.onChangeComoSoube()">
+            
+            <input style="width:250px" type="hidden" name="how">
+            
+        </form>
+        
+    </center>
+    
+    <div class='error' id='cadastroerror'></div>
+    <div class='space'></div>
+    
+    
+    <div style='position:relative;left:70px;top:-20px'>
+        <img id='cadastrocheckbox0' class='toggleimg' alt='Toggle.OnClick("cadastrocheckbox")' style='display:block;position:absolute;top:0px;left:0px;' src='hotsite/mobile/images/checkbox.png'>
+        <img id='cadastrocheckbox1' class='toggleimg' alt='Toggle.OnClick("cadastrocheckbox")' style='display:none;position:absolute;top:0px;left:0px;' src='hotsite/mobile/images/checkbox_selected.png'>
+        <div style='position:absolute;left:180px;top:20px;font-size:3.5vw;line-height:150%'>Concordo com os<br><a href='javascript:openPage("politicadeprivacidade");'><b>Termos e Política de Privacidade</b></a></div>
+    </div>
+    
+    <div class='space' style='height:180px'></div>
+    
+    <img class='toggleimg' alt='OnClick.CadastrarUsuario()' style='position:relative; left:705px;' src='hotsite/mobile/images/btn_avancar_0.png'>
+    
+    <div class='space'></div>
+    <div class='space'></div>
+    <div class='space'></div>
+</div>

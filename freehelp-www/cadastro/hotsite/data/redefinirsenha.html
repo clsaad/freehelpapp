@@ -1,0 +1,30 @@
+<div class="title" style="width:310px">REDEFINIR SENHA</div>
+<div style="position:relative; top:60px">
+    
+    <div style='position:relative;top:10px;'>
+        Entre com uma nova senha de acesso.<br>Ela deve conter pelo menos 8 caracteres!
+    </div>
+    
+<form id="formredefinirsenha" onkeypress="if (event.keyCode == 13) { redefinirSenha(); return false; }">
+    
+    <div style="position:absolute; left:5px; top:70px">
+        <input style="width:340px" type="password" name="password" placeholder="Nova senha (*)">
+        <input style="width:340px" type="password" name="js_password2" placeholder="Confirme a Nova Senha (*)">
+    </div>    
+    
+</form>
+    
+    
+
+    <center>
+<div class="error" id="redefinirsenhaerror" style="position:absolute; width:540px; left:-100px; top:170px"></div>
+</center>
+
+<div style='position:absolute;top:200px;left:180px;'>
+<div class='rightButtonmini' style="width:200px"><b>
+<a href="javascript:redefinirSenha();">
+AVANÇAR
+</a></b></div></div>
+    
+<br>
+</div>

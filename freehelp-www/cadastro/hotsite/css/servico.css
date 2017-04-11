@@ -1,0 +1,64 @@
+div.cadastroservico
+{
+    width: 950px;
+	height: 530px;
+    position: absolute;
+    top:75px;
+    left:-15px;
+    
+	background-color: white;
+    border-radius: 16px;
+}
+
+div.cadastroservicoimagem
+{
+    position:relative;
+    width: 230px;
+    height: 108px;
+    left:-12px;
+    background-color: white;
+}
+
+
+div.cadastroservicoimageminner
+{
+    position:absolute;
+    top:25px;
+    left:12px;
+    width: 230px;
+    height: 108px;
+    background: url(../images/foto1.png);
+    background-repeat: no-repeat;
+}
+
+div.cadastroservicoimagemover
+{
+    position:absolute;
+    top:25px;
+    left:10px;
+}
+
+
+div.cadastroservicolixeira
+{
+    width: 153px;
+    height: 50px;
+    
+    background: url(../images/lixeira.png);
+}
+
+
+
+
+div.fotodesc
+{
+    font-size: 14px;
+    color: #999999;
+}
+
+div.fotodesc a
+{
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,90 @@
+<div>
+
+    <b>Como usar arquivos TSV</b><br>
+    <br>
+    Arquivos TSV são planilhas exportadas em formato de texto simples, onde as colunas são separadas por tabulação.<br>
+    Recomenda-se a edição através das planilhas do Google Drive, pois essa pode exportar a edição também como TSV.<br>
+    <br>
+    Confira o exemplo na Tabela:<br><br>
+    
+    <table id="exampletsv" class="tablesorter">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>nome</th>
+                <th>idade</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>João</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>José</td>
+                <td>34</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>
+    
+    Exportada como TSV ficará assim:<br><br>
+    <img src='images/testetsv.png'><br>
+    *Note que a segunda linha contem informação sobre o tipo de dado armazenado na coluna.<br><br>
+    Selecionando o conteudo do arquivo, copiando (Ctrl+C) e colando em uma planilha do Google (Ctrl+V), o resultado será esse:<br><br> 
+    <img src='images/testetsv2.png'><br><br>
+    Para realizar o teste, vamos editar o item com id 3 e incluir mais um, com o id 4, conforme a imagem abaixo:<br><br>
+    <img src='images/testetsv3.png'><br><br>
+    Faça o Download da planilha no formato TSV, seguindo o caminho Arquivo -> Fazer Download Como -> Arquivo separado por Tabulação (.tsv) <br><br>
+    <img src='images/testetsv4.png'><br><br>
+    Ao importar os dados TSV utilizando o menu sobre a tabela, o resultado será esse:<br><br>
+    
+    <table id="exampletsv" class="tablesorter">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>nome</th>
+                <th>idade</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>João</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>José Matheus</td>
+                <td>34</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Pedro</td>
+                <td>12</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>    
+    Os itens com o mesmo id serão alterados, e novos ids serão incluidos na tabela!
+    <br><br>
+    
+    
+
+</div>

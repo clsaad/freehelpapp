@@ -1,0 +1,44 @@
+#checkboxcircle
+{
+    border: 1px solid #999999;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+}
+
+#checkboxcirclehover
+{
+    visibility: hidden;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 50px;
+    height: 50px;
+    background: #4cd0f6;
+}
+
+#checkboxcirclered
+{
+    visibility: hidden;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 50px;
+    height: 50px;
+    background: #ff9898;
+}
+
+#checkboxcircleselected
+{
+    visibility: hidden;
+    position:absolute;
+    top:11px;
+    left:11px;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 30px;
+    height: 30px;
+    background: #aaaaaa;
+}

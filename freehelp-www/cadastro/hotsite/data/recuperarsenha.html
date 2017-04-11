@@ -1,0 +1,29 @@
+<div class="title" style="width:310px">RECUPERAÇÃO DE SENHA</div>
+<div style="position:relative; top:60px">
+    
+    <div style='position:relative;top:10px;'>
+    Esqueceu sua senha? Não tem problema, nós enviaremos um e-mail com dados para recuperá-la.
+    </div>
+    
+<form id="formrecuperarsenha" onkeypress="if (event.keyCode == 13) { recuperarSenha(); return false; }">
+    
+    <div style="position:absolute; left:5px; top:70px">
+        <input style="width:340px" type="text" name="mail" placeholder="E-mail (*)">
+    </div>    
+    
+</form>
+    
+    
+
+    <center>
+<div class="error" id="recuperarsenhaerror" style="position:absolute; top:90px; width:540px; left:-100px; top:125px"></div>
+</center>
+
+<div style='position:absolute;top:160px;left:180px;'>
+<div class='rightButtonmini' style="width:200px"><b>
+<a href="javascript:recuperarSenha();">
+ENVIAR
+</a></b></div></div>
+    
+<br>
+</div>

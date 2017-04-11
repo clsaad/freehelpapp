@@ -1,0 +1,140 @@
+body, html {
+    color: #424242;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background: #4cc9f5;
+    
+    font-family: 'Futura';
+    font-size: 1.4vw;
+    line-height: 450%;
+    
+    background: url(../images/bodybg.jpg) no-repeat center center fixed; 
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+a:link { color: #333333; text-decoration:underline;  }
+
+.lightlink a:link { color: #4cd0f6 }
+
+
+
+.space
+{
+    width: 1080px;
+    height: 25px;
+}
+
+
+.graybox
+{
+    position:relative;
+    background-color: #ebebec;
+    width: 1200px;
+}
+
+
+
+.whitebox
+{
+    position:relative;
+    background-color: #FFFFFF;
+    width: 1080px;
+}
+
+.whiteboxshadow
+{
+    position:relative;
+    background-color: #FFFFFF;
+    width: 1080px;
+    box-shadow: 0px 0px 50px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+select, select:focus, input, input:focus, textarea, textarea:focus
+{
+    outline: none; 
+    border: 5px solid #CCCCCC;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 30px;
+    width: 940px;
+    height:120px;
+    font-family: 'Futura', sans-serif;
+    font-size: 48px;
+    
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+
+.styled-select 
+{
+    background: url(../images/arrow.png) no-repeat right #FFF;
+   -webkit-appearance: none;
+}
+
+
+
+
+.blueseparator
+{
+    width: 940px;
+    height: 2px;
+    background-color: #4cd0f6;
+    margin-top: 20px;
+    margin-bottom:  20px;
+}
+    
+
+.separator
+{
+    height:15px;
+    background-color: #EEEEEE;
+    box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+}
+
+.error
+{
+    font-size: 3.5vw;
+    color:#FF0000;
+    text-align: center;
+}
+
+.servicebox
+{
+    position:relative;
+    width: 900px;
+    left:60px;
+    background-color: #DDDDDD;
+    box-shadow: inset 0px 0px 10px 4px rgba(0, 0, 0, 0.15);
+    min-height: 800px;
+    padding: 30px;
+}
+
+.blackplane
+{
+    position:fixed;
+    z-index:2;
+    top:0px;
+    left:0px;
+    width: 5000px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+

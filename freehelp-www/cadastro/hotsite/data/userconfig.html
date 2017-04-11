@@ -1,0 +1,44 @@
+<div class="title" style="width:400px">CONFIGURAÇÕES DE CONTA</div>
+<div style="position:relative; top:60px">
+<form id="formuserconfig" onkeypress="if (event.keyCode == 13) { updateUser(); return false; }">
+    
+    <div style="position:absolute; left:5px; top:-20px">
+
+        <input style="width:355px" type="text" name="js_configmail"         id="js_configmail"      >
+        <input style="width:355px" type="text" name="js_configcpf"          id="js_configcpf"       >
+        <input style="width:355px" type="text" name="js_confignascimento"   id="js_confignascimento">
+        
+        <input style="width:355px" type="password" name="password" placeholder="Senha Atual (*)">
+        <input style="width:355px" type="password" name="newpassword" placeholder="Nova Senha (*)">
+        <input style="width:355px" type="password" name="js_newpassword" placeholder="Confirmar a Nova Senha (*)">
+        
+    </div>  
+        
+    
+    </div>
+    
+</form>
+    
+    
+
+
+<div class="error" id="configerror" style="position:absolute; top:380px; width:400px"></div>
+
+
+<div style='position:absolute;top:410px;left:10px;'>
+    <a href="javascript:excluirConta();">
+<div class='lixeira' id='configlixeira' style="" onmouseover="javascript:onLixeiraOver(true);" onmouseout="javascript:onLixeiraOver(false);">
+</div></a></div>
+
+
+
+<div style='position:absolute;top:410px;left:190px;'>
+<div class='rightButtonmini' style="width:200px"><b>
+<a href="javascript:updateUser();">
+CONCLUIR
+</a></b></div></div>
+    
+    
+<br>
+</div>
+

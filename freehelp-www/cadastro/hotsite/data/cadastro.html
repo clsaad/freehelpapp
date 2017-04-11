@@ -1,0 +1,67 @@
+<div class="title" style="width:200px">CADASTRO</div>
+<div style="position:relative; top:60px">
+<form id="formcadastro"  onkeypress="if (event.keyCode == 13) { cadastrarUsuario(); return false; }">
+    
+    <div style="position:absolute; left:5px; top:-20px">
+
+        <input style="width:250px" type="text" name="mail" placeholder="E-mail (*)">
+        
+        
+        <input style="width:250px" type="password" name="password" placeholder="Senha (*)">
+        
+        <input style="width:250px" type="password" name="js_password2" placeholder="Confirmar Senha (*)">
+        <input style="width:250px" type="text" name="cpf" placeholder="CPF (*)">
+        <input style="width:250px" type="text" name="nascimento" placeholder="Data de Nascimento (*)">
+        
+    </div>
+    
+    <div style="position:absolute; left:280px; top:-85px; width:2px; height:280px; background-color:#4cd0f6">
+    </div>
+        
+    <div style="position:absolute; left:300px; top:-85px">
+            
+<select onchange="onChangeComoSoube()" name="js_how" style='width:310px'>
+    <option value="" disabled="disabled" selected="selected">Como soube do FreeHelp?*</option>
+    <option value="Indicação de amigo">Indicação de amigo</option>
+    <option value="Busca no Google">Busca no Google</option>
+    <option value="Facebook">Facebook</option>
+    <option value="Loja de aplicativos">Loja de aplicativos</option>
+    <option value="">- Outros</option>
+</select>
+        
+        <input id="comosoubeoutro" style="width:310px;display:none" type="text" name="js_other" placeholder="Outros" onKeyUp="return  onChangeComoSoubeOther()">
+        
+        <input style="width:250px" type="hidden" name="how">
+        
+        <!--
+        <font size=4>
+        <label class="checkbox"><input name="js_term" type="checkbox" />Concordo com os <br> <a href="javascript:openPopup('politicadeprivacidade');">Termos e a Política de Privacidade</a></label>
+        </font>
+        -->
+        <div style='position:relative; top:10px; left:5px;'>
+            <div id='divcheckbox'></div>
+            <div id='cadastrotermos' style='position:relative; top:10px; left:60px;'>
+            Concordo com os <br> <a href="javascript:openPopup('politicadeprivacidade');">Termos e a Política de Privacidade</a>
+            </div>
+        </div>
+    
+    </div>
+    
+</form>
+    
+    
+
+
+<div class="error" id="cadastroerror" style="position:absolute; top:90px;left:290px; width:340px;"></div>
+
+
+<div style='position:absolute;top:120px;left:440px;'>
+<div class='rightButtonmini' style="width:200px"><b>
+<a href="javascript:cadastrarUsuario();">
+AVANÇAR
+</a></b></div></div>
+    
+    
+<br>
+</div>
+

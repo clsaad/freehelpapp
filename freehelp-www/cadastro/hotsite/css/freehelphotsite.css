@@ -1,0 +1,607 @@
+body, html {
+    font-family: 'FuturaCondensed', sans-serif;
+    font-size: 22px;
+    color: #424242;
+    margin: 0px;
+    padding: 0px;
+    
+    overflow: hidden;   
+    
+    width: 100%;
+    height: 100%;
+    
+    background: #4cd0f6; /* For browsers that do not support gradients */
+                background: -webkit-radial-gradient(#53fdfe 35%, #4cd0f6 70%); /* Safari 5.1 to 6.0 */
+                background: -o-radial-gradient(#53fdfe 35%, #4cd0f6 70%); /* For Opera 11.6 to 12.0 */
+                background: -moz-radial-gradient(#53fdfe 35%, #4cd0f6 70%); /* For Firefox 3.6 to 15 */
+                background: radial-gradient(#53fdfe 35%, #4cd0f6 70%); /* Standard syntax */
+}
+
+
+div.gradientwhite1
+{
+    background: rgba(255,255,255,0); /* For browsers that do not support gradients */
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+div.gradientwhite2
+{
+    background: rgba(255,255,255,0); /* For browsers that do not support gradients */
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+}
+
+
+/*
+
+::-webkit-scrollbar {
+    
+    width: 15px;
+    height: 100%;
+    
+}
+::-webkit-scrollbar-track {
+    background-color: #f6f6f7;
+    border-left: 0px solid #ccc;
+    border-radius: 15px;
+    position:relative;
+    left: 100px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: #4cd0f6;
+    background-size:28px cover;
+    background-position:;
+    display: block;
+    width: 15px;
+    height: 60px;
+    
+}
+
+*/
+
+
+div.centeredmain
+{
+    width: 100%;
+    height: 100%;
+    
+	position: absolute;
+    
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+
+div.centered {
+    
+    width: 920px;
+    height: 640px;    
+	position: absolute;
+	top:0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	
+	margin: auto;
+}
+
+
+div.btnclose
+{
+    position: absolute;
+    right: -30px;
+    top:-30px;
+    
+}
+
+
+div.mainbg
+{
+    width: 1138px;
+	height: 630px;
+    position: absolute;
+    top:0px;
+    left:-90px;
+    background-image: url(../images/bgfull.png);
+}
+
+div.main {
+	width: 920px;
+    position: absolute;
+    top:125px;
+}
+
+
+div.homeleft
+{
+    width:400px;
+    height:200px;
+    position:absolute;
+    top:160px;
+    left:30px;
+    text-align: right;
+    font-size: 32px;
+    
+    line-height: 100%;
+}
+
+div.homeright
+{
+    width:409px;
+    height:240px;
+    position:absolute;
+    top:130px;
+    left:460px;
+    text-align: left;
+    
+    line-height: 170%;
+    
+    color: #FFFFFF;
+    
+    background-image: url("../images/ballon.png");
+}
+
+div.detective
+{
+    position:absolute;
+    top:-20px;
+    left:340px;
+    pointer-events:none;
+}
+
+
+div.people
+{
+    position: absolute;
+    top: -35px;
+    left: -45px;
+    width: 100%;
+}
+
+div.content
+{
+    width: 100%;
+	height: 100%;
+    padding: 20px;
+}
+
+#shadow
+{
+    display:none;
+    width: 100%;
+	height: 100%;
+    
+    position: absolute;
+	top:0px;
+    left:0px;
+    
+    overflow: hidden;
+    
+    background: rgba(0, 0, 0, 0.5);
+}
+
+div.logo
+{
+    position: absolute;
+    top: -90px;
+    left: 305px;
+}
+
+div.logotype
+{
+    position: absolute;
+    top: 120px;
+    left: 335px;
+}
+
+div.about
+{
+    width: 750px;
+	height: 600px;
+    position: absolute;
+    top:40px;
+    left:100px;
+	background-image: url("../images/comofunciona.jpg");
+    background-position: bottom;
+    border-radius: 16px;
+    color: white;
+    font-family: 'Futura', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 200%;
+    
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+div.politicadeprivacidadeinner
+{
+    width: 780px;
+	height: 360px;
+    position: absolute;
+    top:40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 30px;
+}
+
+div.politicadeprivacidade
+{
+    width: 880px;
+	height: 500px;
+    position: absolute;
+    top:105px;
+    left:20px;
+    
+    font-family: 'Futura', sans-serif;
+    font-size: 18px;
+    
+	background-color: white;
+    border-radius: 16px;
+}
+
+div.login
+{
+    
+    position: absolute;
+    top:200px;
+    left:170px;
+    
+    width: 590px;
+	height: 270px;
+    
+	background-color: white;
+    border-radius: 16px;
+}
+
+
+div.recuperarsenha
+{
+    position: absolute;
+    top:180px;
+    left:260px;
+    
+    width: 400px;
+	height: 350px;
+    
+	background-color: white;
+    border-radius: 16px;
+}
+
+
+div.redefinirsenha
+{
+    position: absolute;
+    top:180px;
+    left:260px;
+    
+    width: 400px;
+	height: 380px;
+    
+	background-color: white;
+    border-radius: 16px;
+}
+
+
+div.userconfig
+{
+    
+    position: absolute;
+    top:100px;
+    left:255px;
+    
+    width: 410px;
+	height: 480px;
+    
+    
+	background-color: white;
+    border-radius: 16px;
+}
+
+
+
+
+div.cadastro
+{
+    width: 660px;
+	height: 350px;
+    position: absolute;
+    top:180px;
+    left:130px;
+    
+	background-color: white;
+    border-radius: 16px;
+}
+
+
+div.error
+{
+    width: 100%;
+    margin: auto;
+    color:#FF0000;
+    font-size: 15px;
+    text-align: center;
+}
+
+div.appstore
+{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+div.googleplay
+{
+    position: absolute;
+    top: 400px;
+    left: 460px;
+}
+
+
+
+select, select:focus, input, input:focus, textarea, textarea:focus
+{
+  outline: none; 
+  border: 1px solid #999999;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin  : 5px;
+  padding: 8px;
+  width: 350px;
+  background-color: #ffffff;
+  font-family: 'Futura', sans-serif;
+  font-size: 16px;
+}
+
+
+.checkbox input[type='checkbox'] {
+  -webkit-appearance: none;
+  background: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #999999;
+  font-family: 'FuturaCondensed', sans-serif;
+  font-size: 20px;
+}
+
+.checkbox input[type='checkbox']:checked:before {
+  content: "OK";
+  width: 50px;
+  height: 50px;
+}
+
+.checkbox btn-primary span, input[type='checkbox']{
+ vertical-align:middle;
+}
+
+
+div.services
+{
+    position:absolute;
+    top:120px;
+    left:-6px;
+    width:940px;
+    height:325px;
+    background-color: #ebebec;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    
+    overflow-x: hidden;
+}
+
+
+
+::-webkit-scrollbar {
+    
+    width: 28px;
+    height: 100%;
+    
+    
+    
+}
+::-webkit-scrollbar-track {
+    background-color: #f6f6f7;
+    border-left: 0px solid #ccc;
+    border-radius: 28px;
+    position:relative;
+    
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-image: url(../images/scroll.png);
+    background-position: center; 
+    background-position:;
+    display: block;
+    width: 28px;
+    
+    
+    
+    box-shadow: inset 0px 0px 5px 1px rgba(0, 0, 0, 0.15);
+    
+}
+
+
+div.servicescontent
+{
+    position:absolute;
+    top:40px;
+    width:100%;
+    padding: 20px;
+}
+
+
+div.trapezoid {
+    position: absolute;
+    left:270px;
+	width: 400px;
+    height: 30px;
+}
+
+div.trapezoid2 {
+    display:inline-block; 
+    clip-path: url(#services);
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color:#333333;
+	width: 142px;
+    height: 30px;
+    background: url(../images/trapezio2.png) no-repeat;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+div.trapezoid4 {
+    display:inline-block; 
+    clip-path: url(#services);
+    position: absolute;
+    top:0px;
+    right: 0px;
+    color:#333333;
+	width: 300px;
+    height: 30px;
+    background: url(../images/trapezio4.png) no-repeat;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: "Futura", sans-serif;
+}
+
+div.trapezoid3 {
+    display:inline-block; 
+    clip-path: url(#services);
+    position: absolute;
+    top:0px;
+    left:620px;
+    color:#333333;
+	width: 300px;
+    height: 30px;
+    background: url(../images/trapezio3.png) no-repeat;
+    padding-left: 40px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+
+
+
+div.title
+{
+    font-family: 'FuturaCondensed', sans-serif;
+    font-size: 32px;
+    background: url(../images/title.png);
+    height:49px;
+    width:150px;
+    
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    background-position: right;
+    
+    position: relative;
+    top:50px;
+    left: -20px;
+}
+
+
+
+div.service
+{
+    position:relative;
+    width:940px;
+    height:108px;
+    background: url(../images/serviceimagesmallfill.png);
+}
+
+div.serviceimage
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+
+div.servicecontent0
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    
+    position: absolute;
+    left:0px;
+    top:2px;
+    
+    height:100px;
+    width:600px;
+}
+
+div.servicecontent
+{
+    left:120px;
+    width: 940px;
+    height: 100px;
+    
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    
+    position: relative;
+}
+
+
+
+
+
+div.epox
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 260px;
+    height:13px;
+    background: url(../images/epox.png);
+    background-repeat: no-repeat;
+}
+
+
+div.sac
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 260px;
+    height:13px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#cadastrotermos
+{
+    position:absolute;
+    left: 60px;
+    top:0px;
+    font-size: 15px;
+    color:#AAAAAA;
+    width:400px;
+}
+
+#cadastrotermos a
+{
+    color: #AAAAAA;
+    text-decoration: underline;
+}
+
+#cadastrotermos a:hover
+{
+    color: #4cd0f6;
+    text-decoration: underline;
+}
+
+
