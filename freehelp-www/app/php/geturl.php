@@ -6,5 +6,5 @@
 ?>
 <?php
     $json  = MySQL::QueryAsJson("SELECT * FROM appconfig WHERE lower(substr(name,1,4)) in ('url_')");
-    echo($json);
+    echo(utf8_encode($json));
 ?>
